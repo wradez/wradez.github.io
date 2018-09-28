@@ -50,6 +50,11 @@ nav {
     padding: 10vh 0vw;
 }
 
+.socialIcon {
+    width: 45%;
+    padding: 2.5%;
+}
+
 .projectDiv {
     text-align: center;
     padding: 2%;
