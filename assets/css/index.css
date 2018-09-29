@@ -2,6 +2,14 @@ body {
     background-color: rgb(52, 58, 64);
 }
 
+h1 {
+    font-size: 5vw;
+}
+
+p {
+    font-size: 1.25vw;
+}
+
 .school-logo {
     width: 80%;
     height: 80%;
@@ -34,6 +42,7 @@ nav {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 90vh;
+    width: 100vw;
 }
 
 .aboutMe { 
@@ -84,6 +93,20 @@ nav {
     .jumbotron {
         background-image: url("../img/portfolio_banner.jpg");
         background-size: 100%;
-        height: inherit;
+        height: initial;
+    }
+    p {
+        font-size: 1.5vw;
+    }
+    .school-logo {
+        width: 75%;
+        height: 75%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 2.25vw;
     }
 }
