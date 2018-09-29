@@ -3,11 +3,7 @@ body {
 }
 
 h1 {
-    font-size: 5vw;
-}
-
-p {
-    font-size: 1.25vw;
+    font-size: 4vw;
 }
 
 .school-logo {
@@ -36,7 +32,7 @@ nav {
 
 .jumbotron {
     margin-top: 10vh;
-    color: snow;
+    color: white;
     background-image: url("../img/portfolio_banner.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -45,7 +41,7 @@ nav {
 }
 
 .aboutMe { 
-    color: snow;
+    color: white;
     padding: 10vh 0vw;
 }
 
@@ -55,7 +51,7 @@ nav {
 }
 
 #contactMe {
-    color: snow;
+    color: white;
     padding: 10vh 0vw;
 }
 
